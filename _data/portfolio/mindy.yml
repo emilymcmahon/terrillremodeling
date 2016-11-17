@@ -3,12 +3,12 @@ subtitle: No adults allowed
 layout: default
 date: 2014-07-15
 img: 
-- link: treehouse.png
+- link: "https://www.dropbox.com/s/o6gvz2c3ndj2idm/treehouse.png?raw=1"
   alt: image-alt
   caption: "optional"
-- link: treehouse2.jpg
+- link: "https://www.dropbox.com/s/kt1ehpr937rdsqb/treehouse2.jpg?raw=1"
   alt: image-alt
-thumbnail: treehouse-thumbnail.png
+thumbnail: "https://www.dropbox.com/s/gogv0ybl30qm3rd/treehouse-thumbnail.png?raw=1"
 project-date: April 2014
 client: Mindy S. (age 7)
 location: Shopiere, WI

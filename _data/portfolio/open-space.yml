@@ -3,10 +3,10 @@ subtitle: Not just for Dixie Chicks
 layout: default
 date: 2014-07-15
 img: 
-- link: wide-open.jpg
+- link: "https://www.dropbox.com/s/wpntornun1ndypn/wide-open.jpg?raw=1"
   caption: "something something"
   alt: image-alt
-thumbnail: wide-open-thumbnail.jpg
+thumbnail: "https://www.dropbox.com/s/klyhnabt9a4uqfm/wide-open-thumbnail.jpg?raw=1"
 alt: image-alt
 project-date: April 2014
 client: Tom M.
