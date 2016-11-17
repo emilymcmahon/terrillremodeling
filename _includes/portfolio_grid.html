@@ -8,7 +8,18 @@
                 </div>
             </div>
             <div class="row">
+
             {% for data in site.data.portfolio %}
+                {% if site.portfolio.numberFeatured %}
+                    {% if forloop.index0 >= site.portfolio.numberFeatured %}
+                        {% if forloop.length > site.portfolio.numberFeatured %}
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            {{site.portfolio.seeMoreText}}
+                        </div>
+                        {% endif %}
+                        {% break %}
+                    {% endif %}
+                {% endif %}
                 {% assign post = data[1] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
 

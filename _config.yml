@@ -4,12 +4,14 @@ baseurl:
 # Site settings
 title: Terrill Remodeling
 
+# Main page header
 welcome: "Welcome To Our Workshop!"
 welcome2: "Nice to meet you!"
 scroll_prompt: "Tell me more"
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# Nav bar entries
 sections:
 - name: "Services"
 - name: "Portfolio"
@@ -28,8 +30,14 @@ services:
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   icon: fa-home
 
+# Portfolio
+portfolio:
+  # To show all projects in the _data/ folder, just comment out the next line by putting a # in front
+  numberFeatured: 3
+  seeMoreText: "View All"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+
+# Social networks
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
