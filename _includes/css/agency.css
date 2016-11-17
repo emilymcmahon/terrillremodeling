@@ -31,12 +31,13 @@ p.large {
 }
 
 a,
-a:hover,
+a:not(.portfolio-text):hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
 }
+
 
 li a {
     color: #{{ site.data.template.color.primary }};
@@ -692,14 +693,28 @@ page is wrapped in `.page` and is only used on the page layout.
   color: #9a9a9a;
 }
 
-
-.foo {
-  max-width: 50%;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 2rem;
+.post-container {
+  padding-top: 3rem;
   margin-left:  auto;
   margin-right: auto;
+}
+
+@media(min-width:768px) {
+    .post-container {
+      max-width: 50%;
+    }
+}
+
+@media(max-width:767px) {
+    .post-container {
+      max-width: 75%;
+    }
+}
+
+@media(max-width:480px) {
+    .post-container {
+      max-width: 90%;
+    }
 }
 
 .post-title a {
@@ -731,6 +746,11 @@ table {
     border-collapse: collapse
 }
 
+table.image {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
 td,th {
     padding: .25rem .5rem;
     border: 1px solid #e5e5e5
@@ -745,13 +765,18 @@ tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th {
 }
 
 
-a {
+a, a:hover, a:focus {
     color: #268bd2;
-    text-decoration: none
 }
 
-a:hover,a:focus {
-    text-decoration: underline
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+a:hover.portfolio-text {
+    text-decoration: none;
+
 }
 
 article {

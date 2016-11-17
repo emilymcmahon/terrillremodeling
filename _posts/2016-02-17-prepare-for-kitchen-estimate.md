@@ -5,6 +5,7 @@ category: "checklist"
 ---
 
 
+{% capture width %}80%{% endcapture %}
 {% include image_with_caption.html url="http://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Category_Pages/Kitchen/kitchen-hero-2.jpg" description="" %}
 
 
@@ -13,6 +14,7 @@ A common problem homeowners face when starting a remodel is they don't know who 
 
 Full disclosure: I'm no designer. My wife still chooses my attire for special occasions. You do not want to give me creative control.
 
+{% capture width %}50%{% endcapture %}
 {% include image_with_caption.html url="http://images.hellogiggles.com/uploads/2015/03/08/purple-suede.jpg" description="I think this is blue" %}
 
 
@@ -22,7 +24,7 @@ What I <em>can</em> do is build. Lorem ipsum dolor sit amet, consectetur adipisc
 So to help you figure out if you're ready for an estimate, I've put together some general guidelines. If you find you need more concrete designs, I [recommend these design partners](#)
 
 
-#### Estimate-Readiness Checklist: Kitchen
+#### Are you ready for an estimate?
 * Are the x done?
 * Do you have x measured?
 * Are the plans x?
