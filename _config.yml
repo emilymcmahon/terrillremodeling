@@ -1,5 +1,8 @@
-url: 
-baseurl: 
+url: terrillremodeling.emilymcmahon.com
+baseurl: ""
+
+
+# Color, font, etc, changes can be made in _data/template.yml
 
 # Site settings
 title: Terrill Remodeling
@@ -12,12 +15,15 @@ email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Nav bar entries
+# Link defaults to xyz.com/#name
 sections:
 - name: "Services"
 - name: "Portfolio"
 - name: "About"
 - name: "Estimates"
 - name: "Contact"
+- name: "Blog"
+  link: /blog
 
 services:
 - heading: "Kitchens"
@@ -53,4 +59,6 @@ address:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 permalink: pretty

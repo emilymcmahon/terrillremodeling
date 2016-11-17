@@ -1,6 +1,7 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.short }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for f in site.data.portfolio %}
+ {% assign post = f[1] %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -17,7 +18,7 @@
                             <p>{{ post.description }}</p>
 
                             {% for img in post.img %}
-                                <img src="img/portfolio/{{ img.link }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                <img src="{{ img.link }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                                 {% if img.caption %}
                                     <div class="caption">{{img.caption}}</div>
                                 {% endif %}

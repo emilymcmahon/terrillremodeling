@@ -1,11 +1,12 @@
 title: Crasftman Kitchen
 subtitle: Bringing the outdoors in
 layout: default
+modal-id: 1
 date: 2014-07-15
 img: 
 - link: "https://www.dropbox.com/s/eagf4mg4u87fdwo/exposed-kitchen-beams.jpeg?raw=1"
   alt: image-alt
-  caption: "optional"
+  caption: "optional caption"
 thumbnail: "https://www.dropbox.com/s/gt3mwkk8ehb3nin/exposed-kitchen-beams-thumbnail.jpg?raw=1"
 project-date: April 2014
 client: Alex H.

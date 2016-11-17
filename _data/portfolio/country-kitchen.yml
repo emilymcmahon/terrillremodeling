@@ -1,11 +1,12 @@
 title: Country Colonial
 subtitle: New take on classic style
 layout: default
+modal-id: 2
 date: 2014-07-15
 img: 
 - link: "https://www.dropbox.com/s/jjj5i5bxkq1pdne/colonial-kitchen.jpg?raw=1"
   alt: image-alt
-  caption: "optional"
+  caption: "optional caption"
 thumbnail: "https://www.dropbox.com/s/yacqw7lmuiitoan/colonial-kitchen-thumbnail.jpg?raw=1"
 project-date: April 2014
 client: Alex H.

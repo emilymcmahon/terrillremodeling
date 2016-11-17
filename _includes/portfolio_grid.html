@@ -13,8 +13,8 @@
                 {% if site.portfolio.numberFeatured %}
                     {% if forloop.index0 >= site.portfolio.numberFeatured %}
                         {% if forloop.length > site.portfolio.numberFeatured %}
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            {{site.portfolio.seeMoreText}}
+                        <div class="col-md-12 col-sm-6 portfolio-item text-center">
+                            <button id="singlebutton" name="singlebutton" class="btn btn-primary">{{site.portfolio.seeMoreText}}</button> 
                         </div>
                         {% endif %}
                         {% break %}
@@ -23,7 +23,7 @@
                 {% assign post = data[1] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
 
-                    <a href="#portfolioModal{{ post.name }} " class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal{{post.modal-id}} " class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>

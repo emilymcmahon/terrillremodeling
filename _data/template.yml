@@ -2,10 +2,15 @@
 color:
   primary: fed136
   secondary: fec503   
-  secondary-dark: 333
+  secondary-dark: 515151
   muted: 777
+
+blog:
+  textcolor: black
+  font: '"Helvetica Neue", Helvetica, Arial, sans-serif;'
 
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary: '"Helvetica Neue", Helvetica, Arial, sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  color: gray
