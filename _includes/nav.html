@@ -1,5 +1,5 @@
 <!-- Navigation -->
-    <nav id="animatedNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id={{navType}} class="navbar navbar-default navbar-fixed-top {{navClass}}">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -25,7 +25,7 @@
                             {% capture link %}#{{page.name | downcase}}{% endcapture %}
                         {% endif %}
                         <li>
-                            <a class="page-scroll" href="{{site.url}}/{{link}}">{{page.name}}</a>
+                            <a class="page-scroll" href="{{site.url}}{{link}}">{{page.name}}</a>
                         </li>
                     {% endfor %}
                 </ul>
