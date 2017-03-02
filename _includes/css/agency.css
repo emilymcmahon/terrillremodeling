@@ -347,12 +347,6 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
-
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -446,7 +440,27 @@ section h3.section-subheading {
     }
 }
 
-aside.clients img {
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+aside.partners img {
     margin: 50px auto;
 }
 

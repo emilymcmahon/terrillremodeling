@@ -16,16 +16,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="{{site.url}}#page-top"></a>
+                        <a href="#page-top"></a>
                     </li>
                     {% for page in site.sections %}
-                        {% if page.link %}
-                            {% assign link = page.link %}
-                        {% else %}
-                            {% capture link %}#{{page.name | downcase}}{% endcapture %}
-                        {% endif %}
                         <li>
-                            <a class="page-scroll" href="{{site.url}}{{link}}">{{page.name}}</a>
+                            <a class="page-scroll" href="#{{page.name | downcase}}">{{page.name}}</a>
                         </li>
                     {% endfor %}
                 </ul>

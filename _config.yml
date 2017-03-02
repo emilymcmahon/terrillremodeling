@@ -7,15 +7,20 @@ baseurl: ""
 # Site settings
 title: Terrill Remodeling
 
+
 # Main page header
 welcome: "Welcome To Our Workshop!"
 welcome2: "Howdy!"
 scroll_prompt: "Tell me more"
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Quality home additions and remodeling contractors serving Janesville, Wisconsin"
+
+# Where should contact messages go. 
+# If you change this email address, submit a form and and you'll be prompted to confirm your email. 
+# You won't get contacts from the form until your email is confirmed!!!!!
+email: mcmahonimal@gmail.com 
 
 # Nav bar entries
-# Link defaults to xyz.com/#name
+# A new section called XYZ will link to #xyz. You'll need a new file with <section id="xyz"> for this to work properly.
 sections:
 - name: "Services"
 - name: "Portfolio"
@@ -36,7 +41,7 @@ services:
 
 # Portfolio
 portfolio:
-  # To show all projects in the _data/ folder, just comment out the next line by putting a # in front
+  # To show all projects in the _data/ folder, just comment out the "numberFeatured" by putting a # in front
   numberFeatured: 3
   seeMoreText: "View All"
 
