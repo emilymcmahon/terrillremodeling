@@ -44,6 +44,11 @@ portfolio:
 
 # Team names, titles and social links
 # The pic is the name of the correct picture at img/team
+about: 
+  title: About
+  heading: Lorem ipsum dolor sit amet consectetur.
+  body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  
 people:
 - name: Jim Terrill
   pic: "jim-team-pic.jpg"
