@@ -8,14 +8,15 @@
                 </div>
             </div>
 
-            {% for data in site.data.portfolio %}
+            {% assign sorted_portfolio = site.data.portfolio %}
+            {% for data in sorted_portfolio %}
                 {% capture col_num %}{{ forloop.index | modulo: 3 }}{% endcapture %}
                 {% if col_num == "1" %}
                     <div class="row">
                 {% endif %}
                 {% assign post = data[1] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#{{ post.title | replace: ' ', '-' | downcase  | url_param_escape }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#{{ post.title | slugify }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -34,7 +35,7 @@
 
                         <img src="{{ image }}" class="img-responsive img-centered" alt="">
                     </a>
-                    <a href="#{{ post.title | replace: ' ', '-' | downcase  | url_param_escape }}" class="portfolio-text" data-toggle="modal">
+                    <a href="#{{ post.title | slugify }}" class="portfolio-text" data-toggle="modal">
                         <div class="portfolio-caption">
                             <h4>{{ post.title }}</h4>
                             <p class="text-muted">{{ post.subtitle }}</p>

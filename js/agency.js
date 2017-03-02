@@ -25,6 +25,8 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+// update url when opening or closing a modal
 $('div.modal').on('show.bs.modal', function() {
 	var modal = this;
 	var hash = modal.id;
@@ -35,9 +37,8 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
-/*
+
 $('div.modal').on('hidden.bs.modal', function () {
     var original = window.location.href.substr(0, window.location.href.indexOf('#'))
     history.replaceState({}, document.title, original);
 });
-*/
