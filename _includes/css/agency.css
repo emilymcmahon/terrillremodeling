@@ -731,21 +731,6 @@ page is wrapped in `.page` and is only used on the page layout.
     }
 }
 
-.post-title a {
-  color: {{site.data.template.blog.textcolor}};
-}
-
-.posts {
-    font-family: {{site.data.template.blog.font}};
-}
-
-.post-date {
-    display: block;
-    margin-top: -.5rem;
-    margin-bottom: 2rem;
-    color: #9a9a9a
-}
-
 .footnote {
     color: #9a9a9a
 }

@@ -41,40 +41,37 @@ services:
 
 
 # Team names, titles and social links
+# The pic is the name of the correct picture at img/team
 people:
 - name: Jim Terrill
-  pic: jim-team-pic
+  pic: "jim-team-pic.jpg"
   position: Owner
   social:
-    - title: facebook
+    - title: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
       url: https://www.facebook.com/profile.php?id=100001245127164
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+#  To add another team member, uncomment the section below by removing each # at the start of each line
+#- name: Larry Parker
+#  pic: "2.jpg"
+#  position: Lead Marketer
+#  social:
+#   - title: twitter
+#     url: #
+#   - title: facebook
+#      url: #
+#    - title: linkedin
+#      url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks
+# Can have anything at http://fontawesome.io/icons/
 social:
   - title: facebook
     url: https://www.facebook.com/pages/Terrill-Remodeling/1476022199351365
+  - title: google
+    url: 
+  - title: yelp
+    url:
 
 
 # Postal address (add as many lines as necessary)

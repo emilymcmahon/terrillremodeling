@@ -4,10 +4,10 @@ layout: default
 modal-id: 2
 date: 2014-07-15
 img: 
-- link: "https://www.dropbox.com/s/jjj5i5bxkq1pdne/colonial-kitchen.jpg?raw=1"
+- link: "img/portfolio/colonial-kitchen.jpg"
   alt: image-alt
   caption: "optional caption"
-thumbnail: "https://www.dropbox.com/s/yacqw7lmuiitoan/colonial-kitchen-thumbnail.jpg?raw=1"
+thumbnail: "img/portfolio/colonial-kitchen-thumbnail.jpg"
 project-date: April 2014
 client: Alex H.
 location: Janesville, WI

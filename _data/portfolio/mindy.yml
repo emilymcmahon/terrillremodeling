@@ -4,12 +4,12 @@ layout: default
 date: 2014-07-15
 modal-id: 3
 img: 
-- link: "https://www.dropbox.com/s/o6gvz2c3ndj2idm/treehouse.png?raw=1"
+- link: "img/portfolio/treehouse.png"
   alt: image-alt
   caption: "optional caption"
-- link: "https://www.dropbox.com/s/kt1ehpr937rdsqb/treehouse2.jpg?raw=1"
+- link: "img/portfolio/treehouse2.jpg"
   alt: image-alt
-thumbnail: "https://www.dropbox.com/s/gogv0ybl30qm3rd/treehouse-thumbnail.png?raw=1"
+thumbnail: "img/portfolio//treehouse-thumbnail.png"
 project-date: April 2014
 client: Mindy S. (age 7)
 location: Shopiere, WI

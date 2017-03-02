@@ -4,15 +4,15 @@ layout: default
 date: 2014-07-15
 modal-id: 4
 img: 
-- link: "https://www.dropbox.com/s/wpntornun1ndypn/wide-open.jpg?raw=1"
+- link: "img/portfolio/wide-open.jpg"
   caption: "something something"
   alt: image-alt
-thumbnail: "https://www.dropbox.com/s/klyhnabt9a4uqfm/wide-open-thumbnail.jpg?raw=1"
+thumbnail: "img/portfolio/wide-open-thumbnail.jpg"
 alt: image-alt
 project-date: April 2014
 client: Tom M.
 location: Madison, WI
-category: Living
+category: Remodel
 description: The kitchen was dark and closed off. By removing the wall, we were able to open up the space.
 
 
