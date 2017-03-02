@@ -8,10 +8,12 @@
                 </div>
             </div>
 
+            {% assign need_closing_div = false %}
             {% assign sorted_portfolio = site.data.portfolio %}
             {% for data in sorted_portfolio %}
                 {% capture col_num %}{{ forloop.index | modulo: 3 }}{% endcapture %}
                 {% if col_num == "1" %}
+                    {% assign need_closing_div = true %}
                     <div class="row">
                 {% endif %}
                 {% assign post = data[1] %}
@@ -43,9 +45,12 @@
                     </a>
                 </div>                
                 {% if col_num == "0" %}
+                    {% assign need_closing_div = false %}
                     </div>
                 {% endif %}
             {% endfor %}
-            </div>
+            {% if need_closing_div %} 
+                </div>
+            {% endif %}
         </div>
     </section>
