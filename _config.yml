@@ -22,8 +22,6 @@ sections:
 - name: "About"
 - name: "Estimates"
 - name: "Contact"
-- name: "Blog"
-  link: /blog
 
 services:
 - heading: "Kitchens"
@@ -42,15 +40,42 @@ portfolio:
   numberFeatured: 3
   seeMoreText: "View All"
 
+# Team names, titles and social links
+people:
+- name: Jim Terrill
+  pic: jim-team-pic
+  position: Owner
+  social:
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100001245127164
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 
 # Social networks
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: yelp
-    url: 
+    url: https://www.facebook.com/pages/Terrill-Remodeling/1476022199351365
+
 
 # Postal address (add as many lines as necessary)
 address:
