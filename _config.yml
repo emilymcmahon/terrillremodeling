@@ -22,8 +22,6 @@ sections:
 - name: "About"
 - name: "Estimates"
 - name: "Contact"
-- name: "Blog"
-  link: /blog
 
 services:
 - heading: "Kitchens"
