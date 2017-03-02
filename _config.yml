@@ -39,11 +39,6 @@ services:
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   icon: fa-home
 
-# Portfolio
-portfolio:
-  # To show all projects in the _data/ folder, just comment out the "numberFeatured" by putting a # in front
-  numberFeatured: 3
-  seeMoreText: "View All"
 
 # Team names, titles and social links
 people:

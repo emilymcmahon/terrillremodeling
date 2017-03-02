@@ -10,16 +10,6 @@
             <div class="row">
 
             {% for data in site.data.portfolio %}
-                {% if site.portfolio.numberFeatured %}
-                    {% if forloop.index0 >= site.portfolio.numberFeatured %}
-                        {% if forloop.length > site.portfolio.numberFeatured %}
-                        <div class="col-md-12 col-sm-6 portfolio-item text-center">
-                            <button id="singlebutton" name="singlebutton" class="btn btn-primary">{{site.portfolio.seeMoreText}}</button> 
-                        </div>
-                        {% endif %}
-                        {% break %}
-                    {% endif %}
-                {% endif %}
                 {% assign post = data[1] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{post.modal-id}} " class="portfolio-link" data-toggle="modal">
