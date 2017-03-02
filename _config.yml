@@ -29,18 +29,23 @@ sections:
 - name: "Contact"
 
 services:
-- heading: "Kitchens"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  icon: fa-cutlery
-- heading: "Baths"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  icon: fa-tint
-- heading: "Additions"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  icon: fa-home
+  title: Services
+  heading: Lorem ipsum dolor sit amet consectetur.
+  categories:
+  - heading: "Kitchens"
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    icon: fa-cutlery
+  - heading: "Baths"
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    icon: fa-tint
+  - heading: "Additions"
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    icon: fa-home
 
 portfolio:
   row_size: 3
+  title: Portfolio
+  heading: Lorem ipsum dolor sit amet consectetur.
 
 # Team names, titles and social links
 # The pic is the name of the correct picture at img/team
@@ -48,7 +53,7 @@ about:
   title: About
   heading: Lorem ipsum dolor sit amet consectetur.
   body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-  
+
 people:
 - name: Jim Terrill
   pic: "jim-team-pic.jpg"
@@ -91,7 +96,6 @@ contact:
   heading: Lorem ipsum dolor sit amet consectetur.
   send: Send Message
   emailSubject: new message from your website contact form
-
 
 
 # Postal address (add as many lines as necessary)
