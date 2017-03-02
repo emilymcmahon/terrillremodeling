@@ -1,6 +1,5 @@
 title: Bathroom Beauty
 subtitle: Contemporary update
-layout: default
 modal-id: 6
 date: 2014-07-15
 img: 
@@ -9,7 +8,7 @@ img:
   caption: "optional caption"
 thumbnail: "img/portfolio/budget-bath-thumbnail.jpg"
 project-date: April 2014
-client: Debbie H.
+client: 
 location: Janesville, WI
 category: Bathroom
 description: Debbie wanted to keep costs modest when bringing her 70s bathroom into the 21st century. We were able to install new floors, fixtures and windows for under $x (* not typical)

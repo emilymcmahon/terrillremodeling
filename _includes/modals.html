@@ -16,18 +16,24 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                              <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong>{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>{{ "March 14, 2016" | date: "%B %Y" }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>{{ post.category }}</a>
-                                    </strong>
-                                </li>
+                                {% if post.client != "" and post.client != nil %}
+                                    <li>Client:
+                                        <strong>{{ post.client }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.date != "" and post.date != nil %}
+                                    <li>Date:
+                                        <strong>{{ post.date | date: "%B %Y" }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.category != "" and post.category != nil %}
+                                    <li>Service:
+                                        <strong>{{ post.category }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
                             </ul>
 
                             <p>{{ post.description }}</p>
