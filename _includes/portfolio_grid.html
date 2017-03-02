@@ -15,7 +15,7 @@
                 {% endif %}
                 {% assign post = data[1] %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{post.modal-id}} " class="portfolio-link" data-toggle="modal">
+                    <a href="#{{ post.title | replace: ' ', '-' | downcase  | url_param_escape }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -34,7 +34,7 @@
 
                         <img src="{{ image }}" class="img-responsive img-centered" alt="">
                     </a>
-                    <a href="#portfolioModal{{post.modal-id}} " class="portfolio-text" data-toggle="modal">
+                    <a href="#{{ post.title | replace: ' ', '-' | downcase  | url_param_escape }}" class="portfolio-text" data-toggle="modal">
                         <div class="portfolio-caption">
                             <h4>{{ post.title }}</h4>
                             <p class="text-muted">{{ post.subtitle }}</p>

@@ -35,3 +35,9 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+/*
+$('div.modal').on('hidden.bs.modal', function () {
+    var original = window.location.href.substr(0, window.location.href.indexOf('#'))
+    history.replaceState({}, document.title, original);
+});
+*/
