@@ -5,6 +5,9 @@ color:
   secondary-dark: 515151
   muted: 777
 
+image:
+  main: "/img/header-bg2.jpg"
+
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
