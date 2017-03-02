@@ -20,6 +20,12 @@
                                         <strong>{{ post.client }}</a>
                                         </strong>
                                     </li>
+                                {% endif %} 
+                                {% if post.location != "" and post.location != nil %}
+                                    <li>Location:
+                                        <strong>{{ post.location }}</a>
+                                        </strong>
+                                    </li>
                                 {% endif %}
                                 {% if post.date != "" and post.date != nil %}
                                     <li>Date:
