@@ -9,4 +9,6 @@ Via [content-editor.surge.sh](https://content-editor.surge.sh). Requires persona
 
 # Where to edit
 
+Color, font, etc, changes can be made in _data/template.yml
+
 TODO
