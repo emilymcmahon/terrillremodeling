@@ -1,7 +1,7 @@
 Jekyll site for Terrill Remodeling
 ====================
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Built off [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme)
 
 # How to edit
 
