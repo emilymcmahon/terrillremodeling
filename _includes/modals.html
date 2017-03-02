@@ -1,6 +1,5 @@
  <!-- Portfolio Modals -->
- {% for f in site.data.portfolio %}
- {% assign post = f[1] %}
+ {% for post in site.data.portfolio.projects %}
     <div class="portfolio-modal modal fade" id="{{ post.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">

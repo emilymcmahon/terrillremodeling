@@ -1,0 +1,73 @@
+- title: Bathroom Beauty
+  subtitle: Contemporary update
+  date: 2014-07-15
+  img: 
+  - link: "img/portfolio/budget-bath.jpg"
+    alt: image-alt
+    caption: "optional caption"
+  thumbnail: "img/portfolio/budget-bath-thumbnail.jpg"
+  project-date: April 2014
+  client: 
+  location: Janesville, WI
+  category: Bathroom
+  description: Debbie wanted to keep costs modest when bringing her 70s bathroom into the 21st century. We were able to install new floors, fixtures and windows for under $x (* not typical)
+
+- title: Crasftman Kitchen
+  subtitle: Bringing the outdoors in
+  date: 2014-07-15
+  img: 
+  - link: "img/portfolio/exposed-kitchen-beams.jpeg"
+    alt: image-alt
+    caption: "optional caption"
+  thumbnail: "img/portfolio/exposed-kitchen-beams-thumbnail.jpg"
+  project-date: April 2014
+  client: Alex H.
+  location: Janesville, WI
+  category: Kitchens
+  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+- title: Country Colonial
+  subtitle: New take on classic style
+  date: 2014-07-15
+  img: 
+  - link: "img/portfolio/colonial-kitchen.jpg"
+    alt: image-alt
+    caption: "optional caption"
+  thumbnail: "img/portfolio/colonial-kitchen-thumbnail.jpg"
+  project-date: April 2014
+  client: Alex H.
+  location: Janesville, WI
+  category: Kitchens
+  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+- title: Fantasy Treehouse
+  subtitle: No adults allowed
+  date: 2014-07-15
+  img: 
+  - link: "img/portfolio/treehouse.png"
+    alt: image-alt
+    caption: "optional caption"
+  - link: "img/portfolio/treehouse2.jpg"
+    alt: image-alt
+  thumbnail: "img/portfolio//treehouse-thumbnail.png"
+  project-date: April 2014
+  client: Mindy S. (age 7)
+  location: Shopiere, WI
+  category: Addition
+  description: Mindy got a treehouse to celebrate her birthday! Built with cedar and finished off with real doors and windows, this house will withstand years of weather and rough housing.
+
+- title: Wide Open Spaces
+  subtitle: Not just for Dixie Chicks
+  date: 2014-07-15
+  img: 
+  - link: "img/portfolio/wide-open.jpg"
+    caption: "something something"
+    alt: image-alt
+  thumbnail: "img/portfolio/wide-open-thumbnail.jpg"
+  alt: image-alt
+  project-date: April 2014
+  client: Tom M.
+  location: Madison, WI
+  category: Remodel
+  description: The kitchen was dark and closed off. By removing the wall, we were able to open up the space.
+
