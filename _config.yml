@@ -64,6 +64,12 @@ people:
 #    - title: linkedin
 #      url: #
 
+estimates:
+  title: Estimates
+  heading: |
+    Have a design? <a href="#contact">Contact us</a> to schedule an estimate! 
+  body: |
+    Still figuring things out? We can <a href="#contact">recommended quality designers</a> that will help you through the process.
 
 # Social networks
 # Can have anything at http://fontawesome.io/icons/
@@ -74,6 +80,13 @@ social:
     url: 
   - title: yelp
     url:
+
+contact:
+  title: Contact Us!
+  heading: Lorem ipsum dolor sit amet consectetur.
+  send: Send Message
+  emailSubject: new message from your website contact form
+
 
 
 # Postal address (add as many lines as necessary)
