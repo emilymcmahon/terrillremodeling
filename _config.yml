@@ -39,6 +39,8 @@ services:
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   icon: fa-home
 
+portfolio:
+  row_size: 3
 
 # Team names, titles and social links
 # The pic is the name of the correct picture at img/team
