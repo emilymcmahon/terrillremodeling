@@ -108,3 +108,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 permalink: pretty
+
+prose:
+  ignore: 
+  	- index.html
