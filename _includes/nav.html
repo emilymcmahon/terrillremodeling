@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="{{site.url}}#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="{{site.url}}#page-top">{{site.data.site_settings.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,7 +18,7 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% for page in site.sections %}
+                    {% for page in site.data.site_settings.sections %}
                         <li>
                             <a class="page-scroll" href="#{{page.name | downcase}}">{{page.name}}</a>
                         </li>
