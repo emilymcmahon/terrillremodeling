@@ -2,7 +2,6 @@
 published: false
 projectName: Example Project
 subtitle: No place like home
-date: 10/31/2016
 client: Emily
 location: Madison
 category: bathroom
