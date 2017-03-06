@@ -7,6 +7,7 @@ client: Emily
 location: Madison
 category: bathroom
 photo_url: img/portfolio/budget-bath-thumbnail.jpg
+projectDate: 10/31/2016
 ---
 
 ![budget-bath.jpg]({{site.baseurl}}/img/portfolio/budget-bath.jpg)
@@ -24,4 +25,3 @@ Or a thing of things we accomplished
 1. Invent sliced bread
 
 ![colonial-kitchen-thumbnail.jpg]({{site.baseurl}}/img/portfolio/colonial-kitchen-thumbnail.jpg)
-
