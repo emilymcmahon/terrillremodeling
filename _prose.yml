@@ -25,10 +25,10 @@ prose:
           element: "text"
           label: "Subtitle"
           placeholder: "No place like home"
-      - name: "date"
+      - name: "projectDate"
         field:
           element: "text"
-          label: "Date"
+          label: "Project Date"
           placeholder: "10/31/2016"
       - name: "client"
         field:
