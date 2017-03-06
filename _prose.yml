@@ -14,32 +14,53 @@ prose:
     - /_layouts
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
+          placeholder: "McMansion"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          value: ""
+          placeholder: "No place like home"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: ""
+          placeholder: "10/31/2016"
+      - name: "client"
+        field:
+          element: "text"
+          label: "Client"
+          value: ""
+          placeholder: "Alex"
+      - name: "location"
+        field:
+          element: "text"
+          label: "Location"
+          value: ""
+          placeholder: "Janesville, WI"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Kitchen"
+              value: "kitchen"
+            - name: "Bathroom"
+              value: "bathroom"
+            - name: "Addition"
+              value: "addition"
+            - name: "Remodel"
+              value: "remodel"
       - name: "photo_url"
         field:
           element: "text"
           label: "450x450 Picture Thumb for index"
           value: ""
-      - name: "disqus"
-        field:
-          element: "checkbox"
-          label: "Disqus Comments"
-          value: true
-      - name: "fbcomments"
-        field:
-          element: "checkbox"
-          label: "Facebook Comments"
-          value: false
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
+
