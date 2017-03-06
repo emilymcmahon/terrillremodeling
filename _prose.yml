@@ -8,3 +8,7 @@ prose:
     - README.md
     - feed.xml
     - style.css
+    - /js
+    - /css
+    - /_plugins
+    - /_layouts
