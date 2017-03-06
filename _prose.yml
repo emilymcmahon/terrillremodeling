@@ -1,4 +1,5 @@
 prose:
+  media: 'img/portfolio'
   ignore:
     - index.html
     - .gitattributes
