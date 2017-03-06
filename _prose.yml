@@ -1,0 +1,6 @@
+prose:
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
