@@ -1,6 +1,10 @@
 prose:
   ignore:
     - index.html
-    - _config.yml
-    - /_layouts
+    - .gitattributes
+    - .gitignore
     - /_includes
+    - CNAME
+    - README.md
+    - feed.xml
+    - style.css
