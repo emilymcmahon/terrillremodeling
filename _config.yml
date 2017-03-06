@@ -108,12 +108,3 @@ markdown: kramdown
 kramdown:
   input: GFM
 permalink: pretty
-
-prose:
-  ignore: 
-  	- index.html
-    - .gitignore
-    - CNAME
-    - .gitattributes
-    - feed.xml
-    - style.css
