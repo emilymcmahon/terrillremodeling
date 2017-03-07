@@ -13,6 +13,8 @@ prose:
     - /css
     - /_plugins
     - /_layouts
+    - /img/tutorial
+    - /img/map-image.png
   metadata:
     _posts:
       - name: "projectName"
