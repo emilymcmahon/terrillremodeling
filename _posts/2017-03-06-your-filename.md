@@ -8,19 +8,39 @@ category: bathroom
 photo_url: img/portfolio/budget-bath-thumbnail.jpg
 projectDate: 10/31/2016
 ---
+## H2 example
+### H3 example
+
+[Here's a link](google.com)
 
 ![budget-bath.jpg]({{site.baseurl}}/img/portfolio/budget-bath.jpg)
 
-Debbie wanted to keep costs modest when bringing her 70s bathroom into the 21st century. We were able to install new floors, fixtures and windows for under $2000.
-
 More text including things that are a **bolded** or _italic_. We could even quote the client like
 
-> The greatest thing since sliced bread
+> We loved with a love that was more than love
 
-Or a thing of things we accomplished
+We can make a list too!
+
+###Ordered list example: How to Invent Sliced Bread
 
 1. Invent bread
 1. Invent knife
 1. Invent sliced bread
 
-![colonial-kitchen-thumbnail.jpg]({{site.baseurl}}/img/portfolio/colonial-kitchen-thumbnail.jpg)
+If you look at this in the editor, note that the numbers are all 1. Doesn't matter, when this gets turned into code, all that matters is that there's a number, a period, then a space. If consecutive lines have this, it'll order correctly
+
+
+###Bullet list example: Santa's wishlist
+- World peace
+- Ferrari
+- Knowledge
+
+##BONUS KNOWLEDGE
+We can make horizontal line breaks too! Here's one
+***
+
+Can we do multiple in a row? Sure can!
+***
+***
+
+
