@@ -54,8 +54,3 @@ prose:
               value: "addition"
             - name: "Remodel"
               value: "remodel"
-      - name: "photo_url"
-        field:
-          element: "text"
-          label: "450x450 Picture Thumb for index"
-          value: ""
