@@ -2,9 +2,9 @@
 published: true
 projectName: Bathroom Beauty
 subtitle: Contemporary update
-projectDate: '2014-07-15'
+projectDate: 10/31/2016
 client: Alex H.
-location: 'Janesville, WI'
+location: Janesville, WI
 category: kitchen
 ---
 ![budget-bath.jpg]({{site.baseurl}}/img/portfolio/budget-bath.jpg)

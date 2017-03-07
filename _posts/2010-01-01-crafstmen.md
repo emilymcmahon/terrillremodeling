@@ -2,9 +2,9 @@
 published: true
 projectName: Crasftman Kitchen
 subtitle: Bringing the outdoors in
-projectDate: '2014-07-15'
+projectDate: 10/31/2016
 client: Alex H.
-location: 'Janesville, WI'
+location: Janesville, WI
 category: kitchen
 ---
 ![exposed-kitchen-beams.jpeg]({{site.baseurl}}/img/portfolio/exposed-kitchen-beams.jpeg)

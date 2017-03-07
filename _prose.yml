@@ -59,6 +59,5 @@ prose:
       - name: "published"
         field:
           element: "checkbox"
-          label: "Publish?"
-          help: "Check if you are ready to add this to the site"
+          label: "Published"
           value: false

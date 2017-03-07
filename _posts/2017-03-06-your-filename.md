@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 projectName: Example Project
 subtitle: No place like home
 client: Emily
@@ -8,6 +8,7 @@ category: bathroom
 projectDate: 10/31/2016
 ---
 ## H2 example
+
 ### H3 example
 
 [Here's a link](google.com)
@@ -36,8 +37,11 @@ If you look at this in the editor, note that the numbers are all 1. Doesn't matt
 
 ##BONUS KNOWLEDGE
 We can make horizontal line breaks too! Here's one
+
 ***
 
 Can we do multiple in a row? Sure can!
+
 ***
+
 ***

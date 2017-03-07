@@ -10,36 +10,37 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-8 col-lg-offset-2">  
+                            <div class="modal-header">{{ post.projectName }}</div>
+                            <div class="modal-subheader">
+                                 <ul class="list-inline item-details">
+                                    {% if post.client != "" and post.client != nil %}
+                                        <li>Client:
+                                            <strong>{{ post.client }}</a>
+                                            </strong>
+                                        </li>
+                                    {% endif %} 
+                                    {% if post.location != "" and post.location != nil %}
+                                        <li>Location:
+                                            <strong>{{ post.location }}</a>
+                                            </strong>
+                                        </li>
+                                    {% endif %}
+                                    {% if post.projectDate != "" and post.projectDate != nil %}
+                                        <li>Date:
+                                            <strong>{{ post.projectDate | date: "%B %Y" }}</a>
+                                            </strong>
+                                        </li>
+                                    {% endif %}
+                                    {% if post.category != "" and post.category != nil %}
+                                        <li>Service:
+                                            <strong>{{ post.category | capitalize }}</a>
+                                            </strong>
+                                        </li>
+                                    {% endif %}
+                                </ul>
+                            </div>
                         <div class="modal-body">
-                            <h2>{{ post.projectName }}</h2>
-                            <hr class="star-primary">
-                             <ul class="list-inline item-details">
-                                {% if post.client != "" and post.client != nil %}
-                                    <li>Client:
-                                        <strong>{{ post.client }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %} 
-                                {% if post.location != "" and post.location != nil %}
-                                    <li>Location:
-                                        <strong>{{ post.location }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.projectDate != "" and post.projectDate != nil %}
-                                    <li>Date:
-                                        <strong>{{ post.projectDate | date: "%B %Y" }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.category != "" and post.category != nil %}
-                                    <li>Service:
-                                        <strong>{{ post.category }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                            </ul>
 
                             <p>{{ post.content }}</p>
 

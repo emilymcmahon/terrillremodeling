@@ -2,10 +2,10 @@
 published: true
 projectName: Country Colonial
 subtitle: New take on classic style
-projectDate: '2014-07-15'
 client: Alex H.
-location: 'Janesville, WI'
+location: Janesville, WI
 category: kitchen
+projectDate: 10/31/2016
 ---
 ![colonial-kitchen.jpg]({{site.baseurl}}/img/portfolio/colonial-kitchen.jpg)
 
