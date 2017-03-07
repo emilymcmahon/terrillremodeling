@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 projectName: Example Project
 subtitle: No place like home
 client: Emily
