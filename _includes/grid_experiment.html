@@ -1,0 +1,53 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{site.data.site_settings.portfolio.title}}</h2>
+                    <h3 class="section-subheading text-muted">{{site.data.site_settings.portfolio.heading}}</h3>
+                </div>
+            </div>
+            {% assign need_closing_div = false %}
+            {% for post in site.posts %}
+                {% capture col_num %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+                {% if col_num == "1" %}
+                    {% assign need_closing_div = true %}
+                    <div class="row">
+                {% endif %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#{{ post.projectName | slugify }}-experiment" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+
+                    {% assign thumbnailImageSrc = "" %}
+                    {% assign images = post.content | split:"<img " %}
+                    {% for postImage in images %}
+                        {% capture difference %}{{ thumbnailImageSrc| size | minus: 1}}{% endcapture %}
+                        {% if difference contains '-' %}
+                            {% if postImage contains 'src' %}
+                                {% assign thumbnailImageSrc = postImage | split:"/>" | first %}
+                            {% endif %}
+                        {% endif %}
+                     {% endfor %}
+                        <img {{ thumbnailImageSrc }} class="img-responsive img-centered" alt="">
+                    </a>
+                    <a href="#{{ post.projectName | slugify }}-experiment" class="portfolio-text" data-toggle="modal">
+                        <div class="portfolio-caption">
+                            <h4>{{ post.projectName }}</h4>
+                            <p class="text-muted">{{ post.subtitle }}</p>
+                        </div>
+                    </a>
+                </div>                
+                {% if col_num == "0" %}
+                    {% assign need_closing_div = false %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+            {% if need_closing_div %} 
+                </div>
+            {% endif %}
+        </div>
+    </section>
