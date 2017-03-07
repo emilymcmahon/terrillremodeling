@@ -56,3 +56,9 @@ prose:
               value: "addition"
             - name: "Remodel"
               value: "remodel"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish?"
+          help: "Check if you are ready to add this to the site"
+          value: false
