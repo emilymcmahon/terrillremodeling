@@ -5,7 +5,6 @@ subtitle: No place like home
 client: Emily
 location: Madison
 category: bathroom
-photo_url: img/portfolio/budget-bath-thumbnail.jpg
 projectDate: 10/31/2016
 ---
 ## H2 example
