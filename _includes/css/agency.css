@@ -4,16 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- ul {
-  margin:0 0 15px 30px;
-  }
- ol {
-  list-style:decimal;
-  }
- ul {
-  list-style:disc;
-  }
-
 .btn {
     margin-top: 20px;
 }
@@ -33,7 +23,7 @@ body {
 
 p {
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.75;
 }
 
 p.large {
@@ -66,18 +56,15 @@ h3,
 h4,
 h5,
 h6 {
+    text-transform: uppercase;
     font-family: {{ site.data.site_settings.font.primary }};
     font-weight: 700;
-}
-
-h3 {
-    font-size: 16px;
 }
 
 img {
     display: block;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 0 1rem;
     border-radius: 5px
 }
 
@@ -282,6 +269,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    text-align: center;
     color: #fff;
     background-attachment: scroll;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
@@ -347,7 +335,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 40px;
 }
 
 section h3.section-subheading {
@@ -412,7 +400,7 @@ section h3.section-subheading {
     margin: 0;
 }
 
-#portfolio .portfolio-item {
+#portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -420,12 +408,22 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item h4 {
+.caption {
+    font-family: {{ site.data.site_settings.font.primary }};
+    margin: 0 auto;
+    padding: 5px 0 25px 0;
+    color: gray;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item  p {
+#portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: {{ site.data.site_settings.font.secondary }};
     font-size: 16px;
@@ -582,28 +580,13 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
-.project-name {
-    font-size: 26px;
-}
 
-.modal-header  {
-    text-align: center;
-    border: none;
-    font-size: 26px;
-    font-weight: 700;
-}
-.modal-subheader  {
-    text-align: center;
-    border: none;
-    font-size: 16px;
-    font-weight: 100;
-    color: gray;
-}
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
+    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -611,7 +594,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 3em;
 }
 
 .portfolio-modal .modal-content p {
