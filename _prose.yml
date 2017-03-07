@@ -1,6 +1,8 @@
 prose:
   media: 'img/portfolio'
   ignore:
+    - _config.yml
+    - _prose.yml
     - index.html
     - .gitattributes
     - .gitignore
