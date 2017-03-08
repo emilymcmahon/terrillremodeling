@@ -18,7 +18,7 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% for page in site.data.site_settings.sections %}
+                    {% for page in site.sections %}
                         <li>
                             <a class="page-scroll" href="#{{page.name | downcase}}">{{page.name}}</a>
                         </li>

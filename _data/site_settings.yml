@@ -1,43 +1,32 @@
 # Site settings
 title: Terrill Remodeling
 
-
 # Main page header
-welcome: "Welcome To Our Workshop!"
-welcome2: "Hola!"
-scroll_prompt: "Tell me more"
-description: "Quality home additions and remodeling contractors serving Janesville, Wisconsin"
+welcome: Welcome To Our Workshop!
+welcome2: Hola!
+scroll_prompt: Tell me more
+description: Quality home additions and remodeling contractors serving Janesville, Wisconsin
 
 # Where should contact messages go. 
 # If you change this email address, submit a form and and you'll be prompted to confirm your email. 
 # You won't get contacts from the form until your email is confirmed!!!!!
 email: terrillremodeling@gmail.com
 
-# Nav bar entries
-# A new section called XYZ will link to #xyz. You'll need a new file with <section id="xyz"> for this to work properly.
-sections:
-- name: "Services"
-- name: "Portfolio"
-- name: "About"
-- name: "Estimates"
-- name: "Contact"
-
 services:
   title: Services
   heading: Lorem ipsum dolor sit amet consectetur.
   categories:
-  - heading: "Kitchens"
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  - heading: Kitchens
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
     icon: fa-cutlery
-  - heading: "Baths"
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  - heading: Baths
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
     icon: fa-tint
-  - heading: "Additions"
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  - heading: Additions
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
     icon: fa-home
 
 portfolio:
-  row_size: 3
   title: Portfolio
   heading: Lorem ipsum dolor sit amet consectetur.
 
@@ -50,7 +39,7 @@ about:
 
 people:
 - name: Jim Terrill
-  pic: "jim-team-pic.jpg"
+  pic: jim-team-pic.jpg
   position: Owner
   social:
     - title: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
@@ -91,25 +80,9 @@ contact:
   send: Send Message
   emailSubject: new message from your website contact form
 
-
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: fed136
-  secondary: fec503   
-  secondary-dark: 515151
-  muted: 777
-
-image:
-  main: "/img/header-bg2.jpg"
-
-# Font Families
-font:
-  primary: '"Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-  color: gray
 
