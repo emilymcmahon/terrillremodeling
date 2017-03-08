@@ -13,7 +13,6 @@ description: Quality home additions and remodeling contractors serving Janesvill
 email: terrillremodeling@gmail.com
 
 services:
-  title: Services
   heading: Lorem ipsum dolor sit amet consectetur.
   categories:
   - heading: Kitchens
@@ -27,13 +26,11 @@ services:
     icon: fa-home
 
 portfolio:
-  title: Portfolio
   heading: Lorem ipsum dolor sit amet consectetur.
 
 # Team names, titles and social links
 # The pic is the name of the correct picture at img/team
 about: 
-  title: About
   heading: Lorem ipsum dolor sit amet consectetur.
   body: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
@@ -58,7 +55,6 @@ people:
 #      url: #
 
 estimates:
-  title: Estimates
   heading: |
     Have a design? <a href="#contact">Contact us</a> to schedule an estimate! 
   body: |
@@ -75,7 +71,6 @@ social:
     url:
 
 contact:
-  title: Contact Us!
   heading: Lorem ipsum dolor sit amet consectetur.
   send: Send Message
   emailSubject: new message from your website contact form

@@ -1,6 +1,6 @@
 ---
 published: true
-projectName: Crasftman Kitchen
+projectName: Craftsman Kitchen
 subtitle: Bringing the outdoors in
 projectDate: 10/31/2016
 client: Alex H.

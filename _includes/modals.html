@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.data.portfolio.projects %}
-    <div class="portfolio-modal modal fade" id="{{ post.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="{{ post.projectName | slugify }}-experiment" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ post.projectName }}</h2>
                             <hr class="star-primary">
                              <ul class="list-inline item-details">
                                 {% if post.client != "" and post.client != nil %}
@@ -27,28 +27,22 @@
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.date != "" and post.date != nil %}
+                                {% if post.projectDate != "" and post.projectDate != nil %}
                                     <li>Date:
-                                        <strong>{{ post.date | date: "%B %Y" }}</a>
+                                        <strong>{{ post.projectDate | date: "%B %Y" }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category != "" and post.category != nil %}
                                     <li>Service:
-                                        <strong>{{ post.category }}</a>
+                                        <strong>{{ post.category | capitalize}}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                             </ul>
 
-                            <p>{{ post.description }}</p>
+                            <p>{{ post.content }}</p>
 
-                            {% for img in post.img %}
-                                <img src="{{ img.link }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                                {% if img.caption %}
-                                    <div class="caption">{{img.caption}}</div>
-                                {% endif %}
-                            {% endfor %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
