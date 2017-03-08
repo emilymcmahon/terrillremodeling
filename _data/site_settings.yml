@@ -7,6 +7,7 @@ welcome2: Hola!
 scroll_prompt: Tell me more
 description: Quality home additions and remodeling contractors serving Janesville, Wisconsin
 
+# icon options are listed at http://fontawesome.io/icons/
 services:
   title: Services
   heading: Lorem ipsum dolor sit amet consectetur.
