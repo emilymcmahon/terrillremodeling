@@ -7,11 +7,6 @@ welcome2: Hola!
 scroll_prompt: Tell me more
 description: Quality home additions and remodeling contractors serving Janesville, Wisconsin
 
-# Where should contact messages go. 
-# If you change this email address, submit a form and and you'll be prompted to confirm your email. 
-# You won't get contacts from the form until your email is confirmed!!!!!
-email: terrillremodeling@gmail.com
-
 services:
   title: Services
   heading: Lorem ipsum dolor sit amet consectetur.
@@ -64,6 +59,17 @@ estimates:
   body: |
     Still figuring things out? We can <a href="#contact">recommended quality designers</a> that will help you through the process.
 
+contact:
+  title: Contact Us!
+  heading: Lorem ipsum dolor sit amet consectetur.
+  send: Send Message
+  emailSubject: new message from your website contact form
+
+# Where should contact messages go. 
+# If you change this email address, submit a form and and you'll be prompted to confirm your email. 
+# You won't get contacts from the form until your email is confirmed!!!!!
+email: terrillremodeling@gmail.com
+
 # Social networks
 # Can have anything at http://fontawesome.io/icons/
 social:
@@ -73,12 +79,6 @@ social:
     url: 
   - title: yelp
     url:
-
-contact:
-  title: Contact Us!
-  heading: Lorem ipsum dolor sit amet consectetur.
-  send: Send Message
-  emailSubject: new message from your website contact form
 
 # Postal address (add as many lines as necessary)
 address:
