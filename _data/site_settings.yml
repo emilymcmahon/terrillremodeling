@@ -35,7 +35,7 @@ people:
   pic: jim-team-pic.jpg
   position: Owner / Operator
   social:
-    - title: twitter #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
+    - title: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 estimates:
