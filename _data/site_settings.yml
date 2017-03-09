@@ -20,6 +20,9 @@ services:
   - heading: Summer Fun
     text: I can't wait
     icon: bbq
+  - heading: The throne
+    text: I'm a king
+    icon: toilet
 
 portfolio:
   heading: A sampling of our latest projects
