@@ -7,49 +7,39 @@ welcome2: Hello!
 scroll_prompt: Tell me more
 description: Quality home additions and remodeling contractors serving Janesville, Wisconsin
 
-# icon options are listed at http://fontawesome.io/icons/
+# icon options are listed at terrillremodeling.emilymcmahon.com/img/terrill-icons.jpg
 services:
   heading: We offer many things
   categories:
   - heading: Kitchens
     text: Make me a sandwich
-    icon_type: trmdl
+    icon_type: trmd
     icon: cutlery
   - heading: Bathrooms
-    text: "You're stinky"
-    icon_type: trmdl
+    text: "I'm stinky"
     icon: bath
   - heading: Additions
     text: Not subtractions!
-    icon_type: trmdl
     icon: home
-  - heading: Decks
-    text: Keep neighbors at bay
-    icon_type: trmdl
-    icon: fence
 
 portfolio:
   heading: A sampling of our latest projects
 
 # Team names, titles and social links
-# The pic is the name of the correct picture at img/team
 about: 
-  heading: 
-  body: 
+  heading: test
+  body: test
 
 people:
 - name: Jim Terrill
-  pic: jim-team-pic.jpg
   position: Owner / Operator
   social:
-    - icon: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
+    - icon: facebook
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 estimates:
-  heading: |
-    Have a design?
-    Great! We'd love to hear about it!
-  body: 
+  heading: Have a design? Great! We'd love to hear about it!
+  body: More stuff
 
 contact:
   heading: We respond to every message within 24 hours

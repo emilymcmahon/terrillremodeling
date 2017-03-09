@@ -10,9 +10,6 @@ sections:
 - name: "Estimates"
 - name: "Contact"
 
-image:
-  main: /img/header-bg2.jpg
-
 
 # Build settings
 markdown: kramdown
