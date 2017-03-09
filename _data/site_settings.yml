@@ -40,14 +40,13 @@ people:
 
 estimates:
   heading: |
-    Have a design? <a href="#contact">Contact us</a> to schedule an estimate! 
-  body: |
-    Still figuring things out? We can <a href="#contact">recommended quality designers</a> that will help you through the process.
+    Have a design?
+    Great! We'd love to hear about it!
+  body: 
 
 contact:
-  title: Contact Us!
-  heading: Lorem ipsum dolor sit amet consectetur.
-  send: Send Message
+  heading: We respond to every message within 24 hours
+  send: Send
   emailSubject: new message from your website contact form
 
 # Where should contact messages go. 
@@ -60,15 +59,6 @@ email: terrillremodeling@gmail.com
 social:
   - title: facebook
     url: https://www.facebook.com/pages/Terrill-Remodeling/1476022199351365
-  - title: google
-    url: 
-  - title: yelp
-    url:
-
-contact:
-  heading: Lorem ipsum dolor sit amet consectetur.
-  send: Send Message
-  emailSubject: new message from your website contact form
 
 # Postal address (add as many lines as necessary)
 address:
