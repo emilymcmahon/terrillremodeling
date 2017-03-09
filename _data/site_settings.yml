@@ -9,18 +9,17 @@ description: Quality home additions and remodeling contractors serving Janesvill
 
 # icon options are listed at terrillremodeling.emilymcmahon.com/img/terrill-icons.jpg
 services:
-  heading: We offer many things
+  heading: Come get it!
   categories:
-  - heading: Kitchens
-    text: Make me a sandwich
-    icon_type: trmd
-    icon: cutlery
-  - heading: Bathrooms
-    text: "I'm stinky"
-    icon: bath
-  - heading: Additions
-    text: Not subtractions!
-    icon: home
+  - heading: Aliens
+    text: We come in peace
+    icon: child
+  - heading: Neighbors
+    text: I'm super nosey
+    icon: fence
+  - heading: Summer Fun
+    text: I can't wait
+    icon: bbq
 
 portfolio:
   heading: A sampling of our latest projects
