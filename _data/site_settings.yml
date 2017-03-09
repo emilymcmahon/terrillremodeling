@@ -13,13 +13,13 @@ services:
   categories:
   - heading: Kitchens
     text: Make me a sandwich
-    icon: fa-cutlery
+    icon: cutlery
   - heading: Bathrooms
     text: "You're stinky"
-    icon: fa-bath
+    icon: bath
   - heading: Additions
     text: Not subtractions!
-    icon: fa-home
+    icon: home
 
 portfolio:
   heading: A sampling of our latest projects
@@ -35,7 +35,7 @@ people:
   pic: jim-team-pic.jpg
   position: Owner / Operator
   social:
-    - title: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
+    - icon: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 estimates:
@@ -57,7 +57,7 @@ email: terrillremodeling@gmail.com
 # Social networks
 # Can have anything at http://fontawesome.io/icons/
 social:
-  - title: facebook
+  - icon: facebook
     url: https://www.facebook.com/pages/Terrill-Remodeling/1476022199351365
 
 # Postal address (add as many lines as necessary)
