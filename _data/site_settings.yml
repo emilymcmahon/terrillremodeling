@@ -29,14 +29,14 @@ portfolio:
 
 # Team names, titles and social links
 about: 
-  heading: test
-  body: test
+  heading: 
+  body: 
 
 people:
 - name: Jim Terrill
-  position: Owner / Operator
+  position: Owner
   social:
-    - icon: facebook
+    - icon: lamp
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 estimates:
