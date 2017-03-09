@@ -33,22 +33,22 @@ about:
 people:
 - name: Jim Terrill
   pic: jim-team-pic.jpg
-  position: Owner
+  position: Owner / Operator
   social:
-    - title: facebook #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
+    - title: twitter #can be facebook / twitter / linkedin or anything else at http://fontawesome.io/icons/
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 #  To add another team member, uncomment the section below by removing each # at the start of each line
-#- name: Larry Parker
-#  pic: "2.jpg"
-#  position: Lead Marketer
-#  social:
-#   - title: twitter
-#     url: #
-#   - title: facebook
-#      url: #
-#    - title: linkedin
-#      url: #
+- name: Larry Parker
+  pic: "2.jpg"
+  position: Lead Marketer
+  social:
+   - title: twitter
+     url: #
+   - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
 estimates:
   heading: |
