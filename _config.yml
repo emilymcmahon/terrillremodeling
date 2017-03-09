@@ -22,7 +22,7 @@ image:
 
 # Font Families
 font:
-  primary: '"Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary: 'Raleway, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
   color: gray
 

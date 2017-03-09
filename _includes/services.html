@@ -8,12 +8,16 @@
                 </div>
             </div>
             <div class="row text-center">
+            {% capture n %}{{ site.data.site_settings.services.categories  | size }}{% endcapture %}
+            {% capture cols %}{{12 | divided_by: n}}{% endcapture %}
+            
                 {% for service in site.data.site_settings.services.categories %}
 
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-{{service.icon}} fa-stack-1x fa-inverse"></i>
+
+                <div class="col-12 col-sm-12 col-md-{{cols}}">
+                    <span class="{{service.icon_type}}-stack {{service.icon_type}}-4x">
+                        <i class="{{service.icon_type}} {{service.icon_type}}-circle {{service.icon_type}}-stack-2x text-primary"></i>
+                        <i class="{{service.icon_type}} {{service.icon_type}}-{{service.icon}} {{service.icon_type}}-stack-1x {{service.icon_type}}-inverse"></i>
                     </span>
                     <h4 class="service-heading">{{service.heading}}</h4>
                     <p class="text-muted">{{service.text}}</p>

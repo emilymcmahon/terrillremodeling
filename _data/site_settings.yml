@@ -13,13 +13,20 @@ services:
   categories:
   - heading: Kitchens
     text: Make me a sandwich
+    icon_type: trmdl
     icon: cutlery
   - heading: Bathrooms
     text: "You're stinky"
+    icon_type: trmdl
     icon: bath
   - heading: Additions
     text: Not subtractions!
+    icon_type: trmdl
     icon: home
+  - heading: Decks
+    text: Keep neighbors at bay
+    icon_type: trmdl
+    icon: fence
 
 portfolio:
   heading: A sampling of our latest projects
