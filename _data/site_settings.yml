@@ -36,7 +36,7 @@ people:
 - name: Jim Terrill
   position: Owner
   social:
-    - icon: lamp
+    - icon: facebook
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 estimates:
@@ -44,8 +44,8 @@ estimates:
   body: More stuff
 
 contact:
-  heading: We respond to every message within 24 hours
-  send: Send
+  heading: Get in touch!
+  send: Send!
   emailSubject: new message from your website contact form
 
 # Where should contact messages go. 
