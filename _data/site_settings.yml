@@ -9,16 +9,16 @@ description: Quality home additions and remodeling contractors serving Janesvill
 
 # icon options are listed at http://fontawesome.io/icons/
 services:
-  heading: Lorem ipsum dolor sit amet consectetur.
+  heading: We offer many things
   categories:
   - heading: Kitchens
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    text: Make me a sandwich
     icon: fa-cutlery
-  - heading: Baths
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    icon: fa-tint
+  - heading: Bathrooms
+    text: "You're stinky"
+    icon: fa-bath
   - heading: Additions
-    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    text: Not subtractions!
     icon: fa-home
 
 portfolio:
