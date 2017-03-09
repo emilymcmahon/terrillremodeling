@@ -4,7 +4,10 @@
             <div class="intro-text">
                 <div class="intro-lead-in">{{site.data.site_settings.welcome}}</div>
                 <div class="intro-heading">{{site.data.site_settings.welcome2}}</div>
+                {%capture s %} {{site.data.site_settings.scroll_prompt | size | minus: 1}}{% endcapture %}
+                {% unless s contains '-' %}
                 <a href="#services" class="page-scroll btn btn-xl btn-primary btn-success">{{site.data.site_settings.scroll_prompt}}</a>
+                {% endunless %}
             </div>
         </div>
     </header>
