@@ -58,8 +58,10 @@ email: terrillremodeling@gmail.com
 social:
   - icon: facebook
     url: https://www.facebook.com/pages/Terrill-Remodeling/1476022199351365
+  - icon: google
+    url: www.google.com
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 123 Main St.
+  - line: 53 Holmes St
   - line: Janesville, WI
