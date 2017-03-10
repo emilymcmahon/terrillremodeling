@@ -1,10 +1,10 @@
 ---
-published: true
+published: false
 projectName: Fantasy Treehouse
 subtitle: No adults allowed
 projectDate: 10/31/2016
 client: Mindy S. (age 7)
-location: Janesville, WI
+location: 'Janesville, WI'
 category: addition
 ---
 ![treehouse.png]({{site.baseurl}}/img/portfolio/treehouse.png)
