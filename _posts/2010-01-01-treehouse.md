@@ -1,9 +1,10 @@
 ---
-published: true
+published: false
 projectName: Fantasy Treehouse
 subtitle: No adults allowed
 projectDate: 10/31/2016
 client: Mindy S. (age 7)
+<<<<<<< HEAD
 location: Janesville, WI
 category: bathroom
 ---

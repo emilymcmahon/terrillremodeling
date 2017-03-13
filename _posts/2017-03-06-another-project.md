@@ -1,9 +1,9 @@
 ---
 published: true
-projectName: Country Colonial
-subtitle: New take on classic style
-client: Alex H.
-location: Janesville, WI
+projectName: Very Country Colonial
+subtitle: New new take
+client: Nancy
+location: 'Green Bay, WI'
 category: kitchen
 projectDate: 10/31/2016
 ---
