@@ -5,7 +5,7 @@ subtitle: No adults allowed
 projectDate: 10/31/2016
 client: Mindy S. (age 7)
 location: Janesville, WI
-category: addition
+category: bathroom
 ---
 ![treehouse.png]({{site.baseurl}}/img/portfolio/treehouse.png)
 
