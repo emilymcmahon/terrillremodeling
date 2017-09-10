@@ -1,5 +1,5 @@
 # Site settings
-title: Terrill Contracting
+title: Terrill Remodeling
 
 # Main page header
 welcome: Welcome to our workshop
@@ -63,5 +63,5 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 503 Holmes St
-  - line: Janesville, WI
+  - line: 503 E. Holmes St
+  - line: Janesville, WI 53545
