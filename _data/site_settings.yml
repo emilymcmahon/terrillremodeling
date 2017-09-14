@@ -10,7 +10,7 @@ description: Quality home additions and remodeling contractors serving Janesvill
 
 # icon options are listed at terrillremodeling.emilymcmahon.com/img/terrill-icons.jpg
 services:
-  heading: Come get it!
+  heading: While Terrill Remodeling enjoys working on any construction project, we specialize in historic building renovations.  Our extensive knowledge of historic remodeling requirements makes your historic home or commercial project run more smoothly.
   categories:
   - heading: Remodels
     text: Kitchens / Basements / whole houses
@@ -27,9 +27,9 @@ services:
   - heading: Commercial
     text: Restaurants
     icon: buildings
-  - heading: Historic Home
-    text: I can't wait
-    icon: bbq
+  - heading: Special Projects
+    text: Insurance claims / Water and fire restoration
+    icon: error
 
 portfolio:
   heading: A sampling of our latest projects
