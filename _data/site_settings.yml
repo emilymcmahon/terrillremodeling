@@ -21,6 +21,9 @@ services:
   - heading: Exterior
     text: Windows / Doors / Skylight and Solatube installations / Siding repairs
     icon: door
+  - heading: Outdoor living
+    text: Sunroom / three season porch / Decks / Patios
+    icon: tree
   - heading: Commercial
     text: Restaurants
     icon: buildings
