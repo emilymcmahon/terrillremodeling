@@ -11,6 +11,9 @@ description: Quality home additions and remodeling contractors serving Janesvill
 # icon options are listed at terrillremodeling.emilymcmahon.com/img/terrill-icons.jpg
 services:
   heading: While Terrill Remodeling enjoys working on any construction project, we specialize in historic building renovations.  Our extensive knowledge of historic remodeling requirements makes your historic home or commercial project run more smoothly.
+  rows: 
+    - row_one
+    - row_two
   categories:
   - heading: Remodels
     text: Kitchens / Basements / whole houses
@@ -52,7 +55,7 @@ people:
       url: https://www.facebook.com/profile.php?id=100001245127164
 
 contact:
-  heading: Get in touch!
+  heading: You can use the contact form below or send an email to <b>terrillremodeling@gmail.com</b>
   send: Send!
   emailSubject: new message from your website contact form
 
@@ -71,5 +74,5 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 503 E. Holmes St
-  - line: Janesville, WI 53545
+  - "Office: 503 E. Holmes St, Janesville, WI 53545"
+  - "Workshop: 837 N Parker Dr, Janesville, WI 53545"

@@ -7,22 +7,29 @@
                     <h3 class="section-subheading text-muted">{{site.data.site_settings.services.heading}}</h3>
                 </div>
             </div>
-            <div class="row text-center">
-            {% capture n %}{{ site.data.site_settings.services.categories  | size }}{% endcapture %}
+            {% capture rows %}{{ site.data.site_settings.services.rows | size }}{% endcapture %}
+            {% capture n %}{{ site.data.site_settings.services.categories  | size | divided_by: rows}}{% endcapture %}
             {% capture cols %}{{12 | divided_by: n}}{% endcapture %}
             
-                {% for service in site.data.site_settings.services.categories %}
+                {% for r in site.data.site_settings.services.rows %}
+
+                    {% capture offsetValue %}{{forloop.index0 | times:n}}{% endcapture %}
+
+                    <div class="row {{r}} text-center">
+
+                    {% for service in site.data.site_settings.services.categories  limit:n offset: offsetValue %}
 
 
-                <div class="col-12 col-sm-12 col-md-{{cols}}">
-                    <span class="trmdl-stack trmdl-4x">
-                        <i class="trmdl trmdl-circle trmdl-stack-2x text-primary"></i>
-                        <i class="trmdl trmdl-{{service.icon}} trmdl-stack-1x trmdl-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">{{service.heading}}</h4>
-                    <p class="text-muted">{{service.text}}</p>
-                </div>
+                    <div class="col-12 col-sm-12 col-md-{{cols}}">
+                        <span class="trmdl-stack trmdl-4x">
+                            <i class="trmdl trmdl-circle trmdl-stack-2x text-primary"></i>
+                            <i class="trmdl trmdl-{{service.icon}} trmdl-stack-1x trmdl-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">{{service.heading}}</h4>
+                        <p class="text-muted">{{service.text}}</p>
+                    </div>
 
+                    {% endfor %}
                 {% endfor %}
             </div>
         </div>

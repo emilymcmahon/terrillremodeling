@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 {% for member in site.data.site_settings.people %}
-                <div class="col-sm-12">
+                <div class="col-sm-6">
                     <div class="team-member">
                         <img src="img/team/{{ member.name |slugify}}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
@@ -27,6 +27,26 @@
                     </div>
                 </div>
                 {% endfor %}
+                <div class="col-sm-6">
+
+                <div class="team-member">
+                    <iframe width="225" height="225"
+                      frameborder="0" style="border-radius:50%"
+                      src="https://www.google.com/maps/embed/v1/view?key=AIzaSyD1twpIPF0SrqTil8bdE5drITv64gNMprA
+                        &center=42.6951818,-89.0311387&zoom=16" allowfullscreen>
+                    </iframe>
+                        <h4>Workshop</h4>
+                        <p class="text-muted">837 N Parker Dr, Janesville, WI 53545</p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="https://www.google.com/maps/place/837+N+Parker+Dr,+Janesville,+WI+53545/@42.6951818,-89.0311387,18z/data=!4m13!1m7!3m6!1s0x880619e5a04cb351:0x5d05e18401e7be0f!2s837+N+Parker+Dr,+Janesville,+WI+53545!3b1!8m2!3d42.6950655!4d-89.030039!3m4!1s0x880619e5a04cb351:0x5d05e18401e7be0f!8m2!3d42.6950655!4d-89.030039">
+                                    <i class="trmdl trmdl-google-maps"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
