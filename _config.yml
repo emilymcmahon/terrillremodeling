@@ -7,7 +7,6 @@ sections:
 - name: "Services"
 - name: "Portfolio"
 - name: "About"
-- name: "Estimates"
 - name: "Contact"
 
 

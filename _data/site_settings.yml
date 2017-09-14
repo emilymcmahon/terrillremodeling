@@ -2,9 +2,9 @@
 title: Terrill Remodeling
 
 # Main page header
-welcome: Welcome to our workshop
-welcome2: Howdy!
-scroll_prompt: Tell me more
+welcome: Professional home and commercial remodeling in Southern
+welcome2: Wisconsin
+scroll_prompt: 
 description: Quality home additions and remodeling contractors serving Janesville, Wisconsin
 
 # icon options are listed at terrillremodeling.emilymcmahon.com/img/terrill-icons.jpg
@@ -30,7 +30,12 @@ portfolio:
 # Team names, titles and social links
 about: 
   heading: 
-  body: 
+  body: |
+    Terrill Remodeling, a third generation remodeling business, has the experience and expertise to bring to your next remodeling project.  Jim Terrill owner, is a licensed contractor who specializes in remodeling of any type.  Jim’s <b>passion</b> for construction and <b>attention to detail</b> make working with Terrill Remodeling a very satisfying experience. 
+    <br/><br/>Many contractors can build new.  It takes <b>experience</b> and a <b>special skill set</b> to remodel an existing structure.  Terrill Remodeling will bring our remodeling expertise to your next project.
+    <br/><br/>Our mission is to provide <b>customer satisfaction</b> through <b>quality</b> workmanship.  Let us take the ideas that you have for your project and turn them into a <b>beautiful reality</b>.  We have worked extensively throughout Janesville and Rock County and look forward to working with you on your special project.
+    <br/><br/>We work with a highly qualified group of licensed subcontractors that we know will work to our standards. 
+ 
 
 people:
 - name: Jim Terrill
@@ -38,10 +43,6 @@ people:
   social:
     - icon: facebook
       url: https://www.facebook.com/profile.php?id=100001245127164
-
-estimates:
-  heading: Have a design? Great! We'd love to hear about it!
-  body: More stuff
 
 contact:
   heading: Get in touch!
