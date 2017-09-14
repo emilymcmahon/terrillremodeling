@@ -178,7 +178,38 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
+@media(max-width:767px) {
+    .navbar-brand1 { display: none;}
+    .navbar-brand2 { display: none;}
+}
 @media(min-width:768px) {
+
+.navbar-brand1 {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 2.5em;
+    color: #fed136;
+    text-shadow:
+   -2px -2px 0 #646464,  
+    2px -2px 0 #646464,
+    -2px 2px 0 #646464,
+     2px 2px 0 #646464;    
+      
+}
+
+.navbar-brand2 {
+    font-weight: 900;
+    margin-top:-10px;
+    display:block;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 5px;
+    background-color: #505050;
+    border-radius: 9px;
+    font-family: 'Neuton', serif;
+    font-size: 1.0em;
+    color: white;
+}
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
