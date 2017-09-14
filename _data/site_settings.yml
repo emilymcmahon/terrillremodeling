@@ -1,5 +1,6 @@
 # Site settings
 title: Terrill Remodeling
+title_img: img/logos/terrill_remodel_logo_crop.jpg
 
 # Main page header
 welcome: Professional home and commercial remodeling in Southern
@@ -11,18 +12,18 @@ description: Quality home additions and remodeling contractors serving Janesvill
 services:
   heading: Come get it!
   categories:
-  - heading: Aliens
-    text: We come in peace
-    icon: child
-  - heading: Neighbors
-    text: I'm super nosey
-    icon: fence
-  - heading: Summer Fun
+  - heading: Remodels
+    text: Kitchens / Basements / whole houses
+    icon: home-ss-symbolicons-block
+  - heading: Bathrooms
+    text: Renovations. Shower / tub replacements
+    icon: shower
+  - heading: Commercial
+    text: Restaurants
+    icon: buildings
+  - heading: Historic Home
     text: I can't wait
     icon: bbq
-  - heading: The throne
-    text: I'm a king
-    icon: toilet
 
 portfolio:
   heading: A sampling of our latest projects
