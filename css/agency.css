@@ -178,11 +178,11 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-@media(max-width:767px) {
+@media(max-width:1023px) {
     .navbar-brand1 { display: none;}
     .navbar-brand2 { display: none;}
 }
-@media(min-width:768px) {
+@media(min-width:1024px) {
 
 .navbar-brand1 {
     font-family: 'Averia Serif Libre', cursive;
@@ -395,7 +395,7 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
